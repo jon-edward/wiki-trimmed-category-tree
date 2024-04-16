@@ -1,4 +1,4 @@
-# category-tree-utils
+# wiki-trimmed-category-tree
 This is a set of utilities for serializing a trimmed Wikipedia category tree.
 
 ## Usage
