@@ -196,9 +196,8 @@ if __name__ == "__main__":
 
     logging.info(f"Starting {_language}wiki at {datetime.datetime.now()}.")
 
-    category_tree = generate_category_tree_from_local(
+    category_tree = generate_category_tree(
         _language,
-        pathlib.Path("./assets"),
     )
 
     trim_tree(
